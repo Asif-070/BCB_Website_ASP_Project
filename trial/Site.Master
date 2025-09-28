@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="trial.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="CSS/default.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <div class = "header">
+        <div class = "left_logo">
+			<a href="mainpage.aspx"><img src="Images/Master/BCB-logo-Flip-360.gif" alt ="logo"/></a>
+		</div>
+		<div class = "right_option">
+			<nav>
+				<div class="dmenu">
+					<a href="#">ABOUT BCB ▼</a>
+					<div class="dcontent">
+						<a href="president.aspx">PRESIDENT</a>
+						<a href="bod.aspx">BOARD OF DIRECOTRS</a>
+						<a href="ceo.aspx">CHIEF EXECUTIVE OFFICER</a>
+						<a href="commitee.aspx">STANDING COMMITEE</a>
+						<a href="history.aspx">HISTORY</a>
+						<a href="Constitution.aspx">CONSTITUTION</a>
+						<a href="pag.aspx">POLICIES & GUIDELINES</a>
+					</div>
+				</div>
+				<a href="news.aspx">NEWS</a>
+				<a href="match.aspx">MATCH CENTER</a>
+				<a href="fixture.aspx">FIXTURE</a>
+				<a href="opportunity.aspx">OPPURTUNITY</a>
+				<a href="gallery.aspx">GALLERY</a>
+				<a href="login.aspx">BUY TICKET</a>
+			</nav>
+		</div>
+    </div>
+
+	<div style="height:40px;"> </div>
+
+    <form id="form1" runat="server">
+        <div style="margin-top:50px">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+	<div class = "footer">
+		<table>
+            <tr>
+                <td class="special1">
+					<img src="Images/Master/BCB-logo-Flip-360.gif" alt="logo">
+					<p class = "p-img">
+						<a href="https://www.facebook.com/bcbtigercricket/"><img src="Images/Master/logo-facebook.svg" alt="logo" height="30px" style="padding: 5px;"></a>
+						<a href="https://www.instagram.com/bangladeshtigers/"><img src="Images/Master/logo-instagram.svg" alt="logo" height="30px" style="padding: 5px;"></a>
+						<a href="https://twitter.com/BCBtigers"><img src="Images/Master/logo-twitter.svg" alt="logo" height="30px" style="padding: 5px;"></a>
+						<a href="https://www.youtube.com/c/BangladeshCricketTheTigersOfficial"><img src="Images/Master/logo-youtube.svg" alt="logo" height="30px" style="padding: 5px;"></a>
+						
+					</p>
+				</td>
+                <td>
+					<h2>About BCB</h2>
+					<a href="president.aspx">President</a><br>
+					<a href="bod.aspx">Board of Directors</a><br>
+					<a href="ceo.aspx">Chief Executive Officer</a><br>
+					<a href="commitee.aspx">Standing Committees</a>
+				</td>
+                <td>
+					<h2>Media Links</h2>
+					<a href="news.aspx">News</a><br>
+					<a href="fixture.aspx">Fixtures</a><br>
+					<a href="gallery.aspx">Photo Gallery</a><br>
+				</td>
+				<td>
+					<h2>Other Links</h2>
+					<a href="https://en.wikipedia.org/wiki/Bangladesh_Cricket_Board">BCB wiki</a><br>
+					<a href="https://www.tigercricket.com.bd/">Official BCB</a><br>
+					<a href="https://www.icc-cricket.com/">ICC Cricket</a><br>
+					<a href="https://dailycricket.com.bd/en">Daily Cricket</a>
+				</td>
+            </tr>
+        </table>
+		<hr>
+		<div class="bottom-content">
+			<p style="float: left; font-family: 'Segoe UI'; font-size: small;">
+				&copy; 2023 All Rights Reserved by BCB. Contact Us: info@tigercricket.com.bd  |  Developed By 
+				<img src="Images/Master/Limerick-logo.png" alt="logo" height="30px">		
+			</p>
+			
+			<a class="to_top" href="#"><img src="Images/Master/chevron-up-circle-outline.svg" alt="logo" height="30px"></a><br>
+			<p style="float: right; font-size: small; padding-right:5px;">Back to top</p>
+			
+		</div>
+        
+    </div>
+</body>
+</html>

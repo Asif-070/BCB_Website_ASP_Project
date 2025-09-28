@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'abnormal';
+    src: url(fonts\Oswald-VariableFont_wght.ttf) format('truetype');
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+h2{
+    font-family: "Agency FB", sans-serif;
+}
+.p1{
+    height: 750px;
+    margin-left: 155px;
+    margin-top: 85px;
+    margin-right: 155px;
+    margin-bottom: 85px; 
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.p2{
+    width: 305px;
+    padding: 10px;
+    padding-left:20px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-color: #E9E9E9;
+    position: relative;
+}
+.p3{
+    width: 630px;
+    font-size: large;
+    padding-bottom: 9px;
+    background-color: #F5F5F5;
+    position: relative;
+}

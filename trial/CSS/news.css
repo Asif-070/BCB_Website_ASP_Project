@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../images/newsbg.jpg');
+    background-size: contain;
+}
+h1{
+    font-family: "Agency FB", sans-serif;
+}
+h2{
+    font-family: "Agency FB", sans-serif;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /*margin-left: 2.5%;
+    margin-right: 2.5%;*/
+}
+.pic{
+    width: 355px;
+    margin-right: 25px;
+    margin-bottom: -30px;
+}
+.text{
+    position: relative;
+    bottom: 80px;
+    left: 15px;
+    color: #ffffff;
+    font-family: "Agency FB", sans-serif;
+    font-size: 180%;
+    text-shadow: 2px 2px 8px rgb(70, 70, 70);
+}
+.load{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+    .load input[type="submit"] {
+        background-color: #006A4E;
+        color: #ffffff;
+        min-height: 30px;
+        min-width: 90px;
+    }

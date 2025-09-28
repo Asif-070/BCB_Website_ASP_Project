@@ -1,0 +1,28 @@
+﻿
+.tabcont {
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 2px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 0 0px 55px rgba(0,0,0,0.2);
+    justify-content: center;
+}
+    .tabcont th{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #EFF0F7;
+        border: 1px solid black;
+    }
+    .tabcont td {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 1px solid black;
+    }
+    .tabcont table {
+        margin-left: 2.5%;
+        width: 95%;
+        border: 1px solid black;
+    }

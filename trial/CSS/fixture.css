@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'abnormal';
+    src: url(fonts\Oswald-VariableFont_wght.ttf) format('truetype');
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+h2{
+    font-family: "Agency FB", sans-serif;
+}
+.rommain{
+    height: 1000px;
+}
+.rom{
+    float: left;
+    width: 60%; 
+    margin-left: 70px; 
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.rom2{
+    margin-left: 50px;
+    margin-top: 80px;
+    float: left;
+    height: 400px;
+}
+.twitter-timeline{
+    width: 260px;
+    max-height:400px;
+}
+hr{
+    margin-top: 100px;
+}

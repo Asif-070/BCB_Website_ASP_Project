@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'abnormal';
+    src: url(fonts\Oswald-VariableFont_wght.ttf) format('truetype');
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+h2{
+    font-family: "Agency FB", sans-serif;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: #006A4E;
+    grid-template-columns: 1fr 2fr;
+    height: 70px;
+    border-bottom: 1px solid red;
+    border-bottom-width: 3px;
+    z-index: 10;
+}
+
+    .header .left_logo {
+        padding-top: 5px;
+        margin-left: 75px;
+        width: 25%;
+        float: left;
+    }
+
+    .header .right_option {
+        padding-top: 5px;
+    }
+
+nav {
+    background-color: #006A4E;
+    padding-right: 70px;
+    padding-top: 20px;
+    text-align: right;
+    font-family: "Agency FB", sans-serif;
+    font-size: 14px;
+}
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 5px;
+    }
+
+        nav a:hover {
+            background-color: #00523D;
+            color: #ffffff;
+        }
+.dmenu {
+    display: inline;
+    position: relative;
+}
+
+    .dmenu:hover .dcontent {
+        display: block;
+         /*background-color: black;*/ 
+    }
+.dcontent {
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    background-color: #ffffff;
+    width: 160px;
+    display: none;
+    z-index: 10;
+}
+
+    .dcontent a {
+        background-color: #ffffff;
+        color: black;
+        display: block;
+        border-radius: 0px;
+        margin-top: 0px;
+        padding: 2px;
+        padding-left: 8px;
+        text-align: left;
+    }
+th,td{
+    /* border:1px solid black; */
+    line-height: 1.8;
+    align-items: normal;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: 'Segoe UI', sans-serif;
+}
+.special1{
+    float: left;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 70px;
+}
+.p-img img:hover{
+     /*padding-left: 10px;*/ 
+    background-color: #00523D;
+    padding: 5px;
+    color: #ffffff;
+}
+hr{
+    margin-top: 100px;
+}
+.footer {
+    background-color: #006A4E;
+    color: #ffffff;
+    height: 420px;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-top: 1px solid red;
+    border-top-width: 3px;
+}
+    .footer a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .footer img :hover {
+        color: #ffffff;
+    }
+
+.to_top {
+    float: right;
+    padding-top:22px;
+}

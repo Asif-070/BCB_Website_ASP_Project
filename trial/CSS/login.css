@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../images/background.png');
+    background-size: contain;
+}
+h2{
+    font-family: "Agency FB", sans-serif;
+}
+.top{
+    background-color: #006A4E;
+    grid-template-columns: 1fr 2fr;
+    height: 70px;
+    border-bottom: 1px solid red;
+    border-bottom-width: 3px;
+}
+.top .left_logo{
+    padding-top: 5px;
+    margin-left: 75px;
+    width: 25%;
+    float: left;
+}
+.top .right_option{
+    padding-top: 5px;
+}
+nav {
+    background-color: #006A4E;
+    padding-right: 70px;
+    padding-top: 20px;
+    text-align: right;
+    font-family: "Agency FB", sans-serif;
+    font-size: 1em;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5px;
+}
+nav a:hover {
+    background-color: #00523D;
+    color: #ffffff;
+}
+.container{
+    margin-top: 50px;
+    height: 530px;
+}
+.container .left{
+    float: left;
+    margin-left: 190px;
+    width: 50%;
+}
+.container .right{
+    float: left;
+    width: 30%;
+}
+.form{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.sp{
+    margin-top: 0px;
+    font-size: small;
+    color: gray;
+}
+
+.form input{
+    display: block;
+    padding: 1em;
+    border-radius: .4em;
+    margin-bottom: .5em;
+    width: 90%;
+    border: 1px solid rgb(0 0 0 / 10%);
+    font-size: 1em;
+    background-color: #F0F2F5;
+}
+
+    .form input[type="submit"] {
+        background-color: grey;
+        color: #ffffff;
+        font-size: 1.25em;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-top: 20px;
+        margin-left: 17px;
+        padding: .7em 0;
+        display: block;
+        width: 90%;
+        border: none;
+    }
+        .form input[type="submit"]:hover {
+            background-color: #474343;
+        }
+.form input[type="checkbox"]{
+    color: #ffffff;
+    margin-left: 0px;
+    padding: 0;
+    width: 5%;
+    float: left;
+}
+.btn{
+    color: #006A4E;
+}
+
+.bottom{
+    background-color: #006A4E;
+    text-align: center;
+    color: #ffffff;
+    height: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-top: 1px solid red;
+    border-top-width: 3px;
+}

@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="trial.admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+	<link href="CSS/default.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+	<div class = "header">
+		<div class = "left_logo">
+			<a href="adhome.aspx"><img src="Images/Master/BCB-logo-Flip-360.gif" alt ="logo"/></a>
+		</div>
+		<div class = "right_option">
+			<nav>
+				<div class="dmenu">
+					<a href="#">NEWS ▼</a>
+					<div class="dcontent">
+						<a href="adnews.aspx">ADD NEWS</a>
+						<a href="delnews.aspx">REMOVE NEWS</a>
+					</div>
+				</div>
+				<a href="admatch.aspx">MATCH</a>
+				<a href="adfix.aspx">FIXTURE</a>
+				<a href="adgal.aspx">GALLERY</a>
+				<div class="dmenu">
+					<a href="#">TICKET ▼</a>
+					<div class="dcontent">
+						<a href="adtick.aspx">ADD TICKET</a>
+						<a href="deltick.aspx">SHOW TICKET</a>
+					</div>
+				</div>
+				<a href="mainpage.aspx">LOG OUT</a>
+			</nav>
+		</div>
+	</div>
+	<div style="height:100px;"> </div>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

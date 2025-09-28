@@ -1,0 +1,31 @@
+﻿.item img {
+    filter: brightness(50%);
+}
+.item p {
+    height: 190px;
+    font-size:large;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+    .video-container iframe {
+        margin-bottom: 20px;
+    }
+
+    .video-container .video-row {
+        display: flex;
+        justify-content: center;
+    }
+
+/*.fix {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/

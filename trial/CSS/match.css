@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'abnormal';
+    src: url(fonts\Oswald-VariableFont_wght.ttf) format('truetype');
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+h1{
+    font-family: "Agency FB", sans-serif;
+}
+
+.lb{
+    width: 1115px;
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: rgb(23, 23, 23 ,0.5);
+}
+.lb p{
+    margin-bottom: -10px;
+}
+.mid{
+        background-color: #BD4233;
+        height: 63px;
+}
+.mid_option{
+    padding-top: 5px;
+}
+.mid_option nav {
+    background-color: #BD4233;
+    padding-left: 230px;
+    padding-top: 20px;
+    font-family: "Agency FB", sans-serif;
+    font-size: 1em;
+}
+.mid_option nav a {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5px;
+    margin-left: 20px;
+}
+.mid .mid_option nav a:hover {
+    background-color: #8e2113;
+    color: #ffffff;
+}
+.info{
+    height: 800px;
+    margin-bottom: 40px;
+    background-color: #F3F4F4;
+}
+.bttn{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    height: 30px;
+    /* margin-bottom: 25px; */
+}
+button{
+    color: #2A373F;
+    border-color: #2A373F;
+    border-radius: 100px;
+    margin-right: 5px;
+    min-height: 30px;
+    min-width: 90px;
+}
+.tab{
+    background-color: rgb(194, 223, 248);
+    padding: 20px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 440px;
+    height: 225px;
+}

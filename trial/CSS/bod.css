@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'abnormal';
+    src: url(fonts\Oswald-VariableFont_wght.ttf) format('truetype');
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+h2{
+    font-family: "Agency FB", sans-serif;
+}
+th,td{
+    /* border:1px solid black; */
+    line-height: 1.8;
+    align-items: normal;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: 'Segoe UI', sans-serif;
+}
+.special1{
+    float: left;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 70px;
+}
+.p-img img:hover{
+    /* padding-left: 10px; */
+    background-color: #00523D;
+    padding: 5px;
+    color: #ffffff;
+}
+.p1{
+    display: flex;
+    width: 295px;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 480px;
+    margin-bottom: 40px;
+    background-color: #F4F4F4;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.2);
+}
+.pic1{
+    width: 295px;
+}
+.p2{
+    display: flex;
+    flex-direction: row;
+     justify-content: center; 
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-bottom: 40px;
+}
+.pic{
+    width: 215px;
+    margin-right: 25px;
+    background-color: #F4F4F4;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.2);
+}
