@@ -42,7 +42,6 @@ This project was created to practice **ASP.NET, SQL Server integration, and fron
   <img width="500" height="1500" alt="News" src="https://github.com/user-attachments/assets/f37a5fc7-1a4d-4016-8536-9b3d1d7e6489" />
   <img width="500" height="1500" alt="gallery" src="https://github.com/user-attachments/assets/2ad8daa1-1dc5-4036-b8e2-7fab27b976f5" />
   <img width="500" height="1500" alt="NewsDetails" src="https://github.com/user-attachments/assets/72a5ce3b-d291-4e9c-8e27-79f6d86f0978" />
-  <img width="500" height="1000" alt="president" src="https://github.com/user-attachments/assets/a26cbe91-f328-42a9-b631-b676e48a2194" />
 </div>
 
 ### Login & Registration
